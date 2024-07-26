@@ -6,8 +6,8 @@ import { buyIceCream } from '../redux/iceCream/iceCreamActions'
 const IcecreamContainer = (props) => {
     return(
         <div>
-            <h1>Number of Cakes - {props.numOfIceCreams}</h1>
-            <button onClick={props.buyIceCream}>Buy Cakes</button>
+            <h1>Number of IceCream - {props.numOfIceCreams}</h1>
+            <button onClick={props.buyIceCream}>Buy IceCream</button>
         </div>
     )
 }
